@@ -1,4 +1,8 @@
 import pandas as pd
 
-df=pd.read_csv('S:\Project1\StudentsPerformance.csv')
-print(df)
+
+train_df = pd.read_csv("artifacts/train.csv")
+test_df = pd.read_csv("artifacts/test.csv")
+
+print(train_df)
+print(test_df.head())
